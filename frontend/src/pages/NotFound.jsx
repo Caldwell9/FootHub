@@ -1,0 +1,18 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+
+const NotFound = () => {
+  return (
+    <div style={{ textAlign: 'center', padding: '100px 20px', minHeight: '60vh' }}>
+      <h1 style={{ fontSize: '48px', marginBottom: '20px' }}>404</h1>
+      <p style={{ fontSize: '18px', marginBottom: '30px', color: '#666' }}>
+        Page Not Found
+      </p>
+      <Link to="/" className="cta-button">
+        Go Home
+      </Link>
+    </div>
+  );
+};
+
+export default NotFound;
